@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Test</title>
+    <style>
+        .wrapper {
+            display: flex;
+            align-items: center;
+            flex-direction: column; 
+            justify-content: center;
+            width: 100%;
+            min-height: 100%;
+            padding-top:15%;
+        }
+
+        #formContent {
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border-radius: 10px 10px 10px 10px;
+            background: #fff;
+            width: 90%;
+            max-width: 450px;
+            position: relative;
+            padding: 0px;
+            padding-top: 40px;  
+            -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+            box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form class="wrapper" method = "post">
+        <div id="formContent" style="width: 40%; padding: 50px">
+            <div class="input-group mb-3">
+                <input name="check" type="text" placeholder="Сryptocurrency" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                <input name="submit" class="btn btn-primary" type="submit" value="sumbit">
+            </div>
+            <a href="https://www.coingecko.com/en">coins</a>
+        </div>
+    </form>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

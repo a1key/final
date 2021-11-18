@@ -1,0 +1,5 @@
+__title__ = 'database'
+__version__ = '5.0.3'
+__author__ = 'Aidarkhan Tulegenov'
+__repo__ = 'https://github.com/a1key/final'
+__license__ = 'Apache v2.0 License'
